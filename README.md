@@ -7,7 +7,7 @@ It's a fork of [plugin-interactive-tools](https://github.com/yarnpkg/berry/tree/
 ## Install
 
 ```
-yarn plugin import https://github.com/eyolas/yarn-plugin-interractive-filter
+yarn plugin import https://raw.githubusercontent.com/eyolas/yarn-plugin-interractive-filter/master/bundles/%40yarnpkg/plugin-interractive-filter.js
 ```
 
 ## Commands
