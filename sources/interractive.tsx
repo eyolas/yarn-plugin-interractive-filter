@@ -37,7 +37,7 @@ type UpgradeSuggestions = Array<UpgradeSuggestion>;
 
 // eslint-disable-next-line arca/no-default-export
 export default class UpgradeInteractiveCommand extends BaseCommand {
-  static paths = [[`upgrade-interactive`]];
+  static paths = [[`upgrade-interactive-filter`]];
 
   static usage: Usage = Command.Usage({
     category: `Interactive commands`,
@@ -45,7 +45,7 @@ export default class UpgradeInteractiveCommand extends BaseCommand {
     details: `
       This command opens a fullscreen terminal interface where you can see any out of date packages used by your application, their status compared to the latest versions available on the remote registry, and select packages to upgrade.
     `,
-    examples: [[`Open the upgrade window`, `yarn upgrade-interactive`]],
+    examples: [[`Open the upgrade window`, `yarn upgrade-interactive-filter @yarnpkg/core`]],
   });
 
   workspaces = Option.Rest({ required: 1 });
