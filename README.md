@@ -11,4 +11,4 @@ yarn plugin import https://raw.githubusercontent.com/eyolas/yarn-plugin-interrac
 ```
 
 ## Commands
-- yarn upgrade-interactive <workspaces>
+- yarn upgrade-interactive-filter <workspaces>
